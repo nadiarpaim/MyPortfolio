@@ -15,36 +15,39 @@ h1 {
 h2 {
   font-size: 2.5rem;
   font-family: "Source Sans Pro", sans-serif;
-  color: #66bfbf;
+  color: #72b7b7;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
   font-family: "Source Sans Pro", sans-serif;
-  color: #11999e;
+  /* color: #11999e; */
+  color: #97dece;
 }
 
 p {
   line-height: 2;
 }
 
-hr {
+/* hr {
   border: dotted #eaf6f6 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
-}
+} */
 
 a {
-  color: #11999e;
+  /* color: #11999e; */
+  color: white;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #eaf6f6;
+  /* color: #eaf6f6; */
+  color: #40514e;
 }
 
 .top-container {
@@ -101,6 +104,7 @@ a:hover {
   width: 12.5%;
   margin-top: 50px;
   margin-bottom: 30px;
+  filter: drop-shadow(20px 10px 4px #72b7b7);
 }
 
 .profile-description {
@@ -168,4 +172,9 @@ ul li::before {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.skills {
+  background-color: #e4f9f5;
+  padding-bottom: 10px;
 }
